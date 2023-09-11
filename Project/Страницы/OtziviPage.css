@@ -1,0 +1,516 @@
+.menuButton{
+    background-color: E7D4BE;
+    border: 0px;
+    font-size: 16;
+    height: 47px;
+    width: 120;
+    margin: 0;
+    transform: translate(-120px, 23px);
+    cursor: pointer;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color:E7D4BE;
+    width:100%;
+    height:99px;
+}
+.EnterButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+.AddButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    left: 103px;
+    bottom:83px;
+    top:550px;
+    right:376px;  
+    cursor: pointer;
+}
+.cube{
+    background-color:E7D4BE;
+    opacity: 44;
+    height: 681;
+    width: 725;
+    font-family:sans-serif;
+    font-size: 32px;
+    position: relative;
+    top:266px;
+    left:1px;
+    right:716px;
+    bottom:3137px;
+    
+}
+.bottom{
+    position:absolute;
+    bottom: 319px;
+    top:194px;
+    left:103px;
+    right:16px;
+}
+.smltxt{
+    position: absolute;
+    font-size: 20px;
+    bottom: 60;
+}
+.im1{
+    position: relative;
+    left: 770px;
+    height:509px;
+    width:669px;
+}
+.im2{
+    height: 276.12px;
+    width: 133.99px;
+    transform: rotate(29.2deg);
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:528.32px;
+    bottom:418.6px;
+}
+.im3{
+    height: 171px;
+    width: 162px;
+    position: absolute;
+    bottom: 37px;
+    left: 450px;
+}
+.logo{
+    height: 185px;
+    width: 146px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+#overlay{
+    position: fixed; /* Sit on top of the page content */
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    width: 70%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+}
+#overlayField1{
+    background-color: F5D3AB;
+    position:absolute;
+    height:360px;
+    width:645px;
+    top:375px;
+    left:25px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    resize: none;
+}
+#overlayField2{
+    background-color: F5D3AB;
+    position:absolute;
+    height:80px;
+    width:645px;
+    top:195px;
+    left:25px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+}
+#overlayField3{
+    background-color: F5D3AB;
+    position:absolute;
+    height:80px;
+    width:645px;
+    top: 285px;
+    left:25px;
+    font-size:30;
+    border: 0;
+    resize: none;
+    font-family:'Courier New', Courier, monospace;
+}
+#overlayField4{
+    background-color: F5D3AB;
+    position:absolute;
+    height:80px;
+    width:645px;
+    top:105px;
+    left:25px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+}
+.cube2{
+    border: 0.5px solid black;
+    background-color:FFFFFF;
+    height: 547px;
+    width: 692px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: absolute;
+    top:96px;
+    left:37px;
+}
+.photoAdder{
+    background-color:8C441D;
+    color:white;
+    border: 1px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    left: 192px;
+    top:225px;  
+}
+.closeOverlayButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    left: 25px;
+    top:25px;
+    position: absolute;
+    cursor: pointer;
+}
+.sendrequest{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    left:290px;
+    top:25px;
+    cursor: pointer;
+}
+#entoverlay{
+    position: fixed; /* Sit on top of the page content */
+    visibility: hidden;
+    opacity: 0;
+    width: 1221px; /* Full width (cover the whole page) */
+    height: 503px; /* Full height (cover the whole page) */
+    top: 15%;
+    left:15%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,1); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+    box-shadow: -5px -5px 5px bisque;
+}
+#regoverlay{
+    position: fixed; /* Sit on top of the page content */
+    visibility: hidden;
+    opacity: 0;
+    width: 1221px; /* Full width (cover the whole page) */
+    height: 630px; /* Full height (cover the whole page) */
+    top: 15%;
+    left:15%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,1); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+    box-shadow: -5px -5px 5px bisque;
+}
+#entoverlayField1{
+    position:absolute;
+    background-color: F5D3AB;
+    color: 979797;
+    height:80px;
+    width:700px;
+    top:96px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#entoverlayField2{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:700px;
+    top:211px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#entoverlayField3{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:700px;
+    top:330px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#entoverlayField4{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:700px;
+    top:330px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+.regbtn{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    top: 330px;
+    left: 925px;
+    cursor: pointer;
+}
+.regbtn2{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    top:430px;
+    left:860px;
+    cursor: pointer;
+}
+.entbtn{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    top: 390px;
+    left: 925;
+    cursor: pointer;
+}
+.text{
+    color: 8C441D;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    position:relative;
+    left:15px;
+    top:130px;
+}
+.text2{
+    color: 8C441D;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    position:relative;
+    left:925px;
+    top: 70px;
+}
+.text3{
+    color: 8C441D;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    left: 180px;
+    top: 70;
+    padding-top: 25px;
+    width: 700px;
+}
+.closeentOverlayButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    top:15px;
+    left:15px;
+}
+#remembbox{
+    position: absolute;
+    top: 390px;
+    left: 450px;
+    width: 30px;
+    height: 30px;
+}
+.newsblock{
+    background-color: F4ECE2;
+    position: relative;
+    top: 216px;
+    width: 550px;
+    height: 300px;
+    display: table-cell;
+    left: 1px;
+}
+.image{
+    position: absolute;
+    top: 42px;
+    left: 30px;
+    width: 200px;
+    height: 170px
+}
+.text{
+    position: absolute;
+    top:40px;
+    left:715px;
+    font-family:sans-serif;
+    font-size: 24px;
+    width: 596px;
+    height: 403px;
+}
+.text1{
+    color: 8C441D;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    font-family:sans-serif;
+    font-size: 24px;
+    width: 596px;
+    height: 35px; 
+}
+.text4{
+    position: absolute;
+    top: 40px;
+    left: 243px;
+    font-family: sans-serif;
+    font-size: 10;
+    width: 177px;
+    height: 166px;
+}
+.TitleText{
+    font-size: 30;
+    font-family: 'Courier New', Courier, monospace;
+    left: 200;
+    position: absolute;
+}
+.UserButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.recepiePreview{
+    background-color: F4ECE2;
+    position:relative;
+    top:216px;
+    width: 440px;
+    height: 350px;
+    display: inline-table;
+}
+.photo{
+    position: absolute;
+    top: 42px;
+    left: 30px;
+    width: 200px;
+    height: 170px
+}
+.nameText{
+    top: 40px;
+    left: 10px;
+    font-family:sans-serif;
+    font-size: 20px;
+    position: absolute;
+}
+.referencetext{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.author{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.discription{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-family:sans-serif;
+    font-size: 20px;
+    width: 300;
+}
+.ingridients{
+    position: absolute;
+    top:160px;
+    left:717px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.OtzivsButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 31px;
+    top: 120px;
+    cursor: pointer;
+}
+.ExitButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 300px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 1;
+}

@@ -1,0 +1,715 @@
+.menuButton{
+    background-color: E7D4BE;
+    border: 0px;
+    font-size: 16;
+    height: 47px;
+    width: 120;
+    margin: 0;
+    transform: translate(-120px, 23px);
+    cursor: pointer;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color:E7D4BE;
+    width:100%;
+    height:99px;
+}
+.EnterButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+.AddButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 31px;
+    top:120px;
+    cursor: pointer;
+}
+.AddImgButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    right: 214px;
+    top:273px;
+    cursor: pointer;
+}
+.closeOverlayButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+}
+.sendrequest{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    top:687px;
+    left:270px;
+    cursor: pointer;
+}
+.logo{
+    height: 185px;
+    width: 146px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.showButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    top:360px;
+    left:710px;
+}
+#overlay{
+    position: fixed; /* Sit on top of the page content */
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+}
+#overlayField1{
+    position:absolute;
+    background-color: F5D3AB;
+    color: 979797;
+    height:80px;
+    width:645px;
+    top:96px;
+    left:764px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#overlayField2{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:645px;
+    top:190px;
+    left:764px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#overlayField3{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:645px;
+    top:284px;
+    left:764px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#overlayField4{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:619px;
+    width:645px;
+    top:378px;
+    left:764px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+.cube2{
+    border: 0px;
+    background-color:F5D3AB;
+    height: 547px;
+    width: 692px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: absolute;
+    top:96px;
+    left:37px;
+}
+.photoAdder{
+    background-color:8C441D;
+    color:979797;
+    border: 1px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    left: 192px;
+    top:225px;  
+}
+.recepiePreview{
+    background-color: F4ECE2;
+    position:relative;
+    top:216px;
+    width:1510px;
+    height: 500px;
+}
+.TitleText{
+    font-size: 30;
+    font-family: 'Courier New', Courier, monospace;
+    left: 200;
+    position: absolute;
+}
+.photo{
+    position: absolute;
+    top:53px;
+    left:102px;
+    width: 506px;
+    height: 350px;
+}
+.nameText{
+    position: absolute;
+    top:50px;
+    left:717px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.author{
+    position: absolute;
+    top:80px;
+    left:717px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.discription{
+    position: absolute;
+    top:110px;
+    left:717px;
+    font-family:sans-serif;
+    font-size: 20px;
+    width: 300px;
+    background-color: F4ECE2;
+    border: 0;
+    resize: none;
+}
+.ingridients{
+    position: absolute;
+    top:160px;
+    left:717px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+#overlay2{
+    position: fixed; /* Sit on top of the page content */
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+}
+.closeOverlayButton2{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    top:25px;
+    left:1163px;
+    position: absolute;
+    cursor: pointer;
+}
+#overlay2Field1{
+    position:absolute;
+    height:80px;
+    width:645px;
+    top:100px;
+    left:764px;
+    font-size:24;
+    font-family:sans-serif;
+}
+#overlay2Field2{
+    position:absolute;
+    height:80px;
+    width:645px;
+    top:140px;
+    left:764px;
+    font-family:sans-serif;
+    font-size: 24px;
+}
+#overlay2Field3{
+    position: absolute;
+    top: 180px;
+    left: 764px;
+    font-family: sans-serif;
+    font-size: 20;
+    border: 0;
+    resize: none;
+}
+#overlay2Field4{
+    position: absolute;
+    height: 600;
+    width: 700px;
+    top: 310px;
+    left: 764px;
+    font-family: sans-serif;
+    font-size: 20;
+}
+#photo2{
+    position: absolute;
+    top:96px;
+    left:39px;
+    width: 693px;
+    height: 775px;
+}
+span{
+    position: fixed; /* Sit on top of the page content */
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;   
+}
+.cube{
+    background-color:E7D4BE;
+    opacity: 44;
+    height: 681;
+    width: 725;
+    font-family:sans-serif;
+    font-size: 32px;
+    position: relative;
+    bottom: -215px;
+}
+.bottom{
+    position:relative;
+    bottom: 319px;
+    top:194px;
+    left:103px;
+    right:16px;
+}
+.smltxt{
+    position: relative;
+    font-size: 20px;
+    bottom: 60;
+}
+.im1{
+    position: relative;
+    bottom:112px;
+    left: 800px;
+    height:509px;
+    width:669px;
+}
+.im2{
+    height: 276.12px;
+    width: 133.99px;
+    transform: rotate(29.2deg);
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:528.32px;
+    bottom:418.6px;
+}
+.im3{
+    height: 171px;
+    width: 162px;
+    position: absolute;
+    bottom: 37px;
+    left: 450px;
+}
+.smltxt{
+    position: absolute;
+    font-size: 16px;
+    bottom: 236px;
+    left:103px;
+}
+.UserButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+#regoverlay{
+    position: fixed; /* Sit on top of the page content */
+    visibility: hidden;
+    opacity: 0;
+    width: 1221px; /* Full width (cover the whole page) */
+    height: 630px; /* Full height (cover the whole page) */
+    top: 15%;
+    left:15%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,1); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+    box-shadow: -5px -5px 5px bisque;
+}
+#entoverlay{
+    position: fixed; /* Sit on top of the page content */
+    visibility: hidden;
+    opacity: 0;
+    width: 1221px; /* Full width (cover the whole page) */
+    height: 503px; /* Full height (cover the whole page) */
+    top: 15%;
+    left:15%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,1); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+    box-shadow: -5px -5px 5px bisque;
+}
+#entoverlayField1{
+    position:absolute;
+    background-color: F5D3AB;
+    color: 979797;
+    height:80px;
+    width:700px;
+    top:96px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#entoverlayField2{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:700px;
+    top:211px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#entoverlayField3{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:700px;
+    top:330px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+#entoverlayField4{
+    position:absolute;
+    color: 979797;
+    background-color: F5D3AB;
+    height:80px;
+    width:700px;
+    top:330px;
+    left:180px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+    border: 0px;
+}
+.regbtn{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    top: 330px;
+    left: 925px;
+    cursor: pointer;
+}
+.regbtn2{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    top:430px;
+    left:860px;
+    cursor: pointer;
+}
+.entbtn{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    top: 390px;
+    left: 925;
+    cursor: pointer;
+}
+.text{
+    color: 8C441D;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    position:relative;
+    left:15px;
+    top:130px;
+}
+.text2{
+    color: 8C441D;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    position:relative;
+    left:925px;
+    top: 70px;
+}
+.text3{
+    color: 8C441D;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    left: 180px;
+    top: 70;
+    padding-top: 25px;
+    width: 700px;
+}
+.closeentOverlayButton{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    top:15px;
+    left:15px;
+}
+.text1{
+    color: 8C441D;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    font-family:sans-serif;
+    font-size: 24px;
+    width: 596px;
+    height: 35px; 
+}
+.LikeButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    right: 100px;
+    top: 420px;
+    cursor: pointer;
+    z-index: 1;
+}
+.marktext{
+    font-size: 30;
+    font-family: 'Courier New', Courier, monospace;
+    left: 715px;
+    top:430px;
+    position: absolute;
+}
+.ExitButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 300px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.OtzivsButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 300px;
+    top: 120px;
+    cursor: pointer;
+}
+#overlay2{
+    position: fixed; /* Sit on top of the page content */
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    width: 70%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    transition: opacity 1s linear, visibility 1s linear;
+}
+#overlayField12{
+    background-color: F5D3AB;
+    position:absolute;
+    height:360px;
+    width:645px;
+    top:375px;
+    left:25px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+}
+#overlayField22{
+    background-color: F5D3AB;
+    position:absolute;
+    height:80px;
+    width:645px;
+    top:195px;
+    left:25px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+}
+#overlayField32{
+    background-color: F5D3AB;
+    position:absolute;
+    height:80px;
+    width:645px;
+    top: 285px;
+    left:25px;
+    font-size:30;
+    border: 0;
+    resize: none;
+    font-family:'Courier New', Courier, monospace;
+}
+#overlayField42{
+    background-color: F5D3AB;
+    position:absolute;
+    height:80px;
+    width:645px;
+    top:105px;
+    left:25px;
+    font-size:30;
+    font-family:'Courier New', Courier, monospace;
+}
+.sendrequest2{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: absolute;
+    left:290px;
+    top:25px;
+    cursor: pointer;
+}
+.closeOverlayButton2{
+    background-color:8C441D;
+    color:white;
+    border: 0px;
+    font-size: 16;
+    font-family:'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    left: 25px;
+    top:25px;
+    position: absolute;
+    cursor: pointer;
+}
+#searchButton{
+    background-color: 8C441D;
+    color: white;
+    border: 0px;
+    font-size: 16;
+    font-family: 'Courier New', Courier, monospace;
+    width: 246px;
+    height: 48px;
+    position: fixed;
+    right: 560px;
+    top: 120px;
+    cursor: pointer;
+}
+#searchField{
+    position: fixed;
+    height: 48px;
+    width: 450px;
+    top: 120px;
+    left: 250px;
+    font-size: 30;
+    font-family: 'Courier New', Courier, monospace;
+}
